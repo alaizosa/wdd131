@@ -20,7 +20,8 @@ header {
     margin: 0 auto;
 }
 
-main, footer {
+main,
+footer {
     max-width: 1200px;
     margin: 0 auto;
 }
@@ -100,7 +101,6 @@ main h1 {
 }
 
 .card img {
-    width: 150px;
     height: auto;
 }
 
@@ -116,7 +116,6 @@ main h1 {
 }
 
 .flag-img {
-    width: 200px;
     float: left;
     margin: 32px 12px 0 24px;
     border: 1px solid color-mix(in srgb, var(--primary-color) 50%, transparent);
