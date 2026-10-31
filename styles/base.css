@@ -1,0 +1,166 @@
+:root {
+    --background-color: #25434f;
+    --primary-color: #323335;
+    --hover-color: #14b8a6;
+    --text-color: #fff;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "DM Sans", sans-serif;
+}
+
+header,
+main,
+footer {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+#course-title {
+    display: block;
+    background-color: var(--background-color);
+    color: var(--text-color);
+    padding: 16px 0;
+    text-align: center;
+    font-size: 20px;
+}
+
+nav {
+    display: flex;
+    background-color: var(--primary-color);
+    border-radius: 0 0 3px 3px;
+}
+
+nav a {
+    display: flex;
+    flex: 1 1 0;
+    justify-content: center;
+    align-items: center;
+    padding: 8px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    color: var(--text-color);
+}
+
+a:hover {
+    text-decoration: underline;
+    text-decoration-color: var(--hover-color);
+    text-decoration-thickness: 3px;
+    font-weight: 700;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    padding: 0 52px;
+}
+
+main h1 {
+    text-align: center;
+    font-size: 32px;
+    padding: 16px;
+    grid-column: 1 / span 2;
+}
+
+.card {
+    border: 1px solid color-mix(in srgb, var(--primary-color) 50%, transparent);
+    border-radius: 5px;
+    margin: 0 8px;
+    font-size: 18px;
+}
+
+.card h2 {
+    font-size: 18px;
+    padding: 12px;
+    color: var(--text-color);
+    text-align: center;
+    background-color: var(--background-color);
+    border-radius: 5px 5px 0 0;
+}
+
+.card h3 {
+    width: 50%;
+    margin: 0 0 0 80px;
+    text-align: center;
+    border-bottom: 1px solid black;
+}
+
+.card p {
+    line-height: 24px;
+}
+
+.card img {
+    width: 150px;
+    height: auto;
+}
+
+.profile-img {
+    float: right;
+    margin: 24px 32px 24px 12px;
+    border: 1px solid color-mix(in srgb, var(--primary-color) 50%, transparent);
+}
+
+.profile-txt {
+    padding: 24px;
+    text-align: left;
+}
+
+.flag-img {
+    width: 200px;
+    float: left;
+    margin: 32px 12px 0 24px;
+    border: 1px solid color-mix(in srgb, var(--primary-color) 50%, transparent);
+}
+
+.flag-txt {
+    padding: 24px 24px 0 24px;
+    width: 75%;
+    text-align: left;
+}
+
+.flag-desc {
+    width: 20%;
+    font-size: 16px;
+    font-style: italic;
+    text-align: center;
+    margin: 0 0 12px 24px;
+}
+
+section ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 400px;
+}
+
+ul li {
+    list-style-position: inside;
+    list-style-type: square;
+    margin-left: 24px;
+    padding: 8px;
+}
+
+li a {
+    text-decoration: none;
+    color: black;
+}
+
+ul li::marker {
+    color: var(--hover-color);
+}
+
+footer {
+    background-color: var(--background-color);
+    color: var(--text-color);
+    text-align: center;
+    font-size: 18px;
+    padding: 32px;
+    margin-top: 32px;
+}
