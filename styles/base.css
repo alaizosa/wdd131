@@ -166,3 +166,8 @@ footer {
     padding: 32px;
     margin-top: 32px;
 }
+
+#lastModified {
+    margin-top: 8px;
+    color: var(--hover-color);
+}
