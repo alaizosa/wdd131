@@ -91,7 +91,7 @@ main h1 {
 
 .card h3 {
     width: 50%;
-    margin: 0 0 0 80px;
+    margin: 0 0 0 88px;
     text-align: center;
     border-bottom: 1px solid black;
 }
@@ -106,7 +106,7 @@ main h1 {
 
 .profile-img {
     float: right;
-    margin: 24px 32px 24px 12px;
+    margin: 24px 32px 12px 24px;
     border: 1px solid color-mix(in srgb, var(--primary-color) 50%, transparent);
 }
 
@@ -115,31 +115,38 @@ main h1 {
     text-align: left;
 }
 
+.country-info {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+
+figure {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .flag-img {
-    float: left;
-    margin: 32px 12px 0 24px;
+    margin: 32px 24px 12px 24px;
     border: 1px solid color-mix(in srgb, var(--primary-color) 50%, transparent);
 }
 
-.flag-txt {
-    padding: 24px 24px 0 24px;
-    width: 75%;
-    text-align: left;
-}
-
-.flag-desc {
-    width: 20%;
+.flag-caption {
     font-size: 16px;
     font-style: italic;
     text-align: center;
-    margin: 0 0 12px 24px;
 }
+
+.flag-txt {
+    padding: 24px 24px 24px 0;
+}
+
 
 section ul {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    height: 400px;
+    height: 435px;
 }
 
 ul li {
