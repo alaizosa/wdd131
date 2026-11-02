@@ -108,6 +108,7 @@ main h1 {
     float: right;
     margin: 24px 32px 12px 24px;
     border: 1px solid color-mix(in srgb, var(--primary-color) 50%, transparent);
+    border-radius: 3px;
 }
 
 .profile-txt {
@@ -129,6 +130,7 @@ figure {
 .flag-img {
     margin: 32px 24px 12px 24px;
     border: 1px solid color-mix(in srgb, var(--primary-color) 50%, transparent);
+    border-radius: 3px;
 }
 
 .flag-caption {
@@ -172,6 +174,7 @@ footer {
     font-size: 18px;
     padding: 18px;
     margin-top: 32px;
+    border-radius: 3px 3px 0 0;
 }
 
 #lastModified {
