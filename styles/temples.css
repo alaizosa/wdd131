@@ -87,7 +87,7 @@ body {
     color: var(--text-color);
 }
 
-.navigation {
+nav {
     display: flex;
     flex-direction: column;
     background-color: var(--navigation-color);
@@ -97,12 +97,12 @@ body {
     transition: max-height 0.3s ease-in-out, opacity 0.3s ease;
 }
 
-.navigation.open {
+nav.open {
     max-height: 20rem;
     opacity: 1;
 }
 
-.navigation a {
+nav a {
     text-decoration: none;
     font-weight: bold;
     color: var(--surface-color);
@@ -111,7 +111,7 @@ body {
     transition: background-color 0.3s, color 0.3s;
 }
 
-.navigation a:hover {
+nav a:hover {
     background-color: var(--hover-color);
     color: var(--surface-color);
 }
@@ -190,7 +190,7 @@ figure figcaption {
         word-break: break-word;
     }
 
-    .navigation {
+    nav {
         width: 100%;
     }
 }

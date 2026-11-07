@@ -12,14 +12,14 @@
         text-align: center;
     }
 
-    .navigation {
+    nav {
         flex-direction: row;
         max-height: none;
         opacity: 1;
         overflow: visible;
     }
 
-    .navigation a {
+    nav a {
         flex: 1;
     }
 
