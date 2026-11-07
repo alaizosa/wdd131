@@ -1,0 +1,39 @@
+@media (min-width: 600px) {
+    main {
+        width: min(90%, 840px);
+    }
+
+    #menu {
+        display: none;
+    }
+
+    .title {
+        margin-left: 0;
+        text-align: center;
+    }
+
+    .navigation {
+        flex-direction: row;
+        max-height: none;
+        opacity: 1;
+        overflow: visible;
+    }
+
+    .navigation a {
+        flex: 1;
+    }
+
+    .album-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (min-width: 960px) {
+    main {
+        width: min(90%, 1200px);
+    }
+
+    .album-grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
