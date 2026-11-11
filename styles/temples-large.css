@@ -16,6 +16,7 @@
         flex-direction: row;
         max-height: none;
         opacity: 1;
+        visibility: visible;
         overflow: visible;
     }
 
