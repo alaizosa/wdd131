@@ -1,8 +1,8 @@
 /* Color scheme for the page */
 :root {
-    --primary-color: #FAF6F2;
-    --secondary-color: #232B35;
-    --accent-color: #B82925;
+    --background-color: #FAF6F2;
+    --primary-color: #232B35;
+    --secondary-color: #B82925;
 
     --text-color: #FFF;
     --bottom-shadow: 0 3px 6px rgb(0 0 0 / 0.3);
@@ -31,8 +31,8 @@ header h1 {
     position: absolute;
     width: 100%;
     backdrop-filter: blur(3px);
-    background-color: rgb(from var(--primary-color) r g b / 0.3);
-    color: var(--accent-color);
+    background-color: rgb(from var(--background-color) r g b / 0.3);
+    color: var(--secondary-color);
     font-family: var(--title-font);
     font-size: 3rem;
     text-align: center;
@@ -84,7 +84,7 @@ header h1 {
 .weather h2 {
     font-family: var(--title-font);
     font-size: 2rem;
-    color: var(--accent-color);
+    color: var(--secondary-color);
     letter-spacing: 0.1rem;
 }
 
@@ -103,7 +103,7 @@ header h1 {
 
 /* Footer section design */
 footer {
-    background-color: var(--secondary-color);
+    background-color: var(--primary-color);
     color: var(--text-color);
     box-shadow: var(--top-shadow);
     text-align: center;
@@ -165,14 +165,14 @@ footer {
     .weather {
         position: absolute;
         width: 22rem;
-        background-color: rgb(from var(--primary-color) r g b / 0.7);
+        background-color: rgb(from var(--background-color) r g b / 0.7);
         box-shadow: var(--bottom-shadow);
         border-radius: 0.3rem;
     }
 
     .data h2,
     .weather h2 {
-        background-color: rgb(from var(--accent-color) r g b / 0.9);
+        background-color: rgb(from var(--secondary-color) r g b / 0.9);
         color: var(--text-color);
         padding: 1.5rem;
         margin-top: 0;
