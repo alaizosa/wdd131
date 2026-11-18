@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lazy-Loading Images</title>
+    <meta name="description" content="A demonstration on lazy loading images.">
+    <meta name="author" content="Alaister Zosa">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Google+Sans:ital,opsz,wght@0,17..18,400..700;1,17..18,400..700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles/lazyload.css">
+    <script src="scripts/lazyload.js" defer></script>
+</head>
+
+<body>
+    <main>
+        <h1>Lazy-Loading Images</h1>
+        <picture><img src="../images/bountiful-utah.webp" alt="Bountiful, Utah Temple" loading="lazy" width="400"
+                height="600"></picture>
+        <picture><img src="../images/aba-nigeria.webp" alt="Aba, Nigeria Temple" loading="lazy" width="400"
+                height="600"></picture>
+        <picture><img src="../images/brigham-city-utah.webp" alt="Brigham City, Utah Temple" loading="lazy" width="400"
+                height="600"></picture>
+        <picture></picture><img src="../images/columbia-river-washington.webp" alt="Columbia River, Washington Temple"
+            loading="lazy" width="400" height="600"></picture>
+        <picture><img src="../images/baton-rouge-louisiana.webp" alt="Baton Rogue, Louisiana Temple" loading="lazy"
+                width="400" height="600"></picture>
+        <picture><img src="../images/curitiba-brazil.webp" alt="Curitiba, Brazil Temple" loading="lazy" width="400"
+                height="600"></picture>
+    </main>
+    <footer>
+        <p><span class="copyright">©</span> <span id="currentYear"></span> 🌸 Alaister Zosa 🌸 Philippines
+        </p>
+        <p class="secondline" id="lastModified"></p>
+    </footer>
+</body>
+
+</html>

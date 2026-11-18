@@ -1,0 +1,60 @@
+:root {
+    --font: "Google Sans", sans-serif;
+    --background-color: #0F172A;
+    --text-color: white;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: var(--font);
+}
+
+h1 {
+    max-width: 30rem;
+    font-size: 2rem;
+    margin: 0 auto;
+    padding: 1.5rem;
+    text-align: center;
+    background-color: var(--background-color);
+    color: var(--text-color);
+}
+
+picture {
+    display: block;
+    background: #000;
+    margin: 0 auto;
+    max-width: fit-content;
+}
+
+img {
+    margin: 5rem auto;
+    display: block;
+    animation: fade 5s;
+}
+
+@keyframes fade {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+footer {
+    max-width: 30rem;
+    margin: 0 auto;
+    padding: 1.5rem;
+    text-align: center;
+    background-color: var(--background-color);
+    color: var(--text-color);
+}
+
+.secondline {
+    font-size: smaller;
+    padding-top: 1rem;
+    color: rgb(255 255 255 / 0.7);
+}
